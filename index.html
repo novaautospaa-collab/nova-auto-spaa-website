@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nova Auto Spaa | Mobile Car Detailing in Calgary Area</title>
+    <meta name="description" content="Nova Auto Spaa offers professional mobile car detailing packages in Calgary, Okotoks, Airdrie, Chestermere, and Cochrane." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Nova Auto Spaa home">
+        <span class="brand-mark">N</span>
+        <span><strong>Nova Auto Spaa</strong><small>Professional Detailing</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#packages">Packages</a>
+        <a href="#addons">Add-ons</a>
+        <a href="#areas">Service Areas</a>
+        <a class="nav-cta" href="#booking">Book Now</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Mobile auto detailing across the Calgary area</p>
+          <h1>Nova Auto Spaa</h1>
+          <p class="hero-copy">Professional interior and exterior detailing for drivers who want a clean, protected, and fresh-looking vehicle without the hassle.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#booking">Book Appointment</a>
+            <a class="button secondary" href="#packages">View Packages</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Highlights">
+        <div><strong>Mobile Service</strong><span>We come to your location</span></div>
+        <div><strong>Flexible Packages</strong><span>Basic, Premium, and Luxury</span></div>
+        <div><strong>Add-on Options</strong><span>Customize the service you need</span></div>
+      </section>
+
+      <section class="section" id="packages">
+        <div class="section-heading">
+          <p class="eyebrow">Detailing packages</p>
+          <h2>Choose the right clean for your vehicle</h2>
+        </div>
+        <div class="package-grid">
+          <article class="package-card">
+            <div class="package-top"><h3>Basic</h3><p>$150</p></div>
+            <ul><li>Deep vacuuming of seats, carpet, and mats</li><li>Full surface wipe-down</li><li>Interior glass cleaning</li><li>Vent dust removal</li><li>Light spill treatment</li></ul>
+            <a class="package-link" href="#booking" data-package="Basic">Book Basic</a>
+          </article>
+          <article class="package-card featured">
+            <span class="badge">Most Popular</span>
+            <div class="package-top"><h3>Premium</h3><p>$190</p></div>
+            <ul><li>Everything in Basic</li><li>Upholstery shampoo extraction</li><li>Leather cleaning and conditioning</li><li>Full steam cleaning</li><li>Tough stain removal</li></ul>
+            <a class="package-link" href="#booking" data-package="Premium">Book Premium</a>
+          </article>
+          <article class="package-card">
+            <div class="package-top"><h3>Luxury</h3><p>$230</p></div>
+            <ul><li>Everything in Premium</li><li>High pressure vent cleaning</li><li>Enhanced crevice detailing</li><li>Display precision polish</li><li>Headliner spot cleaning</li></ul>
+            <a class="package-link" href="#booking" data-package="Luxury">Book Luxury</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split" id="addons">
+        <div class="section-heading left">
+          <p class="eyebrow">Add-ons</p>
+          <h2>Build your appointment around what your car needs</h2>
+          <p>Customers can add extra services during booking. Final pricing can be confirmed after vehicle size and condition are reviewed.</p>
+        </div>
+        <div class="addon-list">
+          <label><input type="checkbox" disabled /> Pet hair removal - $35</label>
+          <label><input type="checkbox" disabled /> Engine bay cleaning - $50</label>
+          <label><input type="checkbox" disabled /> Odor treatment - $40</label>
+          <label><input type="checkbox" disabled /> Exterior wash - $65</label>
+          <label><input type="checkbox" disabled /> Child seat cleaning - $25</label>
+        </div>
+      </section>
+
+      <section class="service-areas" id="areas">
+        <div><p class="eyebrow">Where we work</p><h2>Serving Calgary and nearby communities</h2></div>
+        <div class="area-pills" aria-label="Service areas"><span>Calgary</span><span>Okotoks</span><span>Airdrie</span><span>Chestermere</span><span>Cochrane</span></div>
+      </section>
+
+      <section class="booking-section" id="booking">
+        <div class="booking-copy">
+          <p class="eyebrow">Book online</p>
+          <h2>Request your detailing appointment</h2>
+          <p>Fill out the form and Nova Auto Spaa will review availability, then confirm the time, package, add-ons, and final quote with you.</p>
+          <div class="contact-box"><strong>Need a quick answer?</strong><span>Add your phone number and preferred time so we can follow up fast.</span></div>
+        </div>
+        <form class="booking-form" id="bookingForm">
+          <div class="form-row"><label>Full Name<input name="name" type="text" placeholder="Your name" required /></label><label>Phone<input name="phone" type="tel" placeholder="(403) 000-0000" required /></label></div>
+          <label>Email<input name="email" type="email" placeholder="you@example.com" required /></label>
+          <div class="form-row"><label>Package<select name="package" id="packageSelect" required><option value="">Select a package</option><option>Basic</option><option>Premium</option><option>Luxury</option></select></label><label>City<select name="city" required><option value="">Select city</option><option>Calgary</option><option>Okotoks</option><option>Airdrie</option><option>Chestermere</option><option>Cochrane</option></select></label></div>
+          <fieldset><legend>Add-ons</legend><div class="checkbox-grid"><label><input type="checkbox" name="addons" value="Pet hair removal - $35" /> Pet hair removal - $35</label><label><input type="checkbox" name="addons" value="Engine bay cleaning - $50" /> Engine bay cleaning - $50</label><label><input type="checkbox" name="addons" value="Odor treatment - $40" /> Odor treatment - $40</label><label><input type="checkbox" name="addons" value="Exterior wash - $65" /> Exterior wash - $65</label><label><input type="checkbox" name="addons" value="Child seat cleaning - $25" /> Child seat cleaning - $25</label></div></fieldset>
+          <div class="form-row"><label>Preferred Date<input name="date" type="date" required /></label><label>Preferred Time<input name="time" type="time" required /></label></div>
+          <div class="form-row"><label>Vehicle Make<input name="vehicleMake" type="text" placeholder="Toyota, Honda, Ford..." required /></label><label>Vehicle Model<input name="vehicleModel" type="text" placeholder="Camry, Civic, F-150..." required /></label></div>
+          <label>Address Details<textarea name="address" rows="5" placeholder="Service address, parking notes, and anything we should know"></textarea></label>
+          <div class="form-alert">
+            <strong>Important appointment note</strong>
+            <span>For mobile detailing, we may need access to a power connection and water supply if required for your selected service. Your request is reviewed first, then Nova Auto Spaa confirms the appointment.</span>
+          </div>
+
+          <button class="button primary full" type="submit">Send Appointment Request</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    <section class="customer-note" aria-label="Appointment requirements">
+        <div>
+          <p class="eyebrow">Before your appointment</p>
+          <h2>Please note</h2>
+          <p>For mobile detailing appointments, Nova Auto Spaa may require access to a power connection and water supply when needed for the selected service. Appointment requests are reviewed first and confirmed by Nova Auto Spaa after checking availability.</p>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><strong>Nova Auto Spaa</strong><span>Professional mobile car detailing in Calgary, Okotoks, Airdrie, Chestermere, and Cochrane.</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
