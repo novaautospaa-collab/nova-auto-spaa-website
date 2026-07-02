@@ -1,3 +1,7 @@
+
+     
+        
+        
 <!doctype html>
 <html lang="en">
   <head>
@@ -6,6 +10,14 @@
     <title>Nova Auto Spaa | Mobile Car Detailing in Calgary Area</title>
     <meta name="description" content="Nova Auto Spaa offers professional mobile car detailing packages in Calgary, Okotoks, Airdrie, Chestermere, and Cochrane." />
     <link rel="stylesheet" href="styles.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18291944244"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-18291944244');
+    </script>
   </head>
   <body>
     <header class="site-header">
@@ -28,6 +40,7 @@
           <p class="eyebrow">Mobile auto detailing across the Calgary area</p>
           <h1>Nova Auto Spaa</h1>
           <p class="hero-copy">Professional interior and exterior detailing for drivers who want a clean, protected, and fresh-looking vehicle without the hassle.</p>
+          <div class="offer-banner"><strong>First-time offer</strong><span>New customers receive 10% off their first detailing bill. Use promo code <b>NOVA10</b> when booking.</span></div>
           <div class="hero-actions">
             <a class="button primary" href="#booking">Book Appointment</a>
             <a class="button secondary" href="#packages">View Packages</a>
@@ -99,8 +112,15 @@
           <div class="form-row"><label>Package<select name="package" id="packageSelect" required><option value="">Select a package</option><option>Basic</option><option>Premium</option><option>Luxury</option></select></label><label>City<select name="city" required><option value="">Select city</option><option>Calgary</option><option>Okotoks</option><option>Airdrie</option><option>Chestermere</option><option>Cochrane</option></select></label></div>
           <fieldset><legend>Add-ons</legend><div class="checkbox-grid"><label><input type="checkbox" name="addons" value="Pet hair removal - $35" /> Pet hair removal - $35</label><label><input type="checkbox" name="addons" value="Engine bay cleaning - $50" /> Engine bay cleaning - $50</label><label><input type="checkbox" name="addons" value="Odor treatment - $40" /> Odor treatment - $40</label><label><input type="checkbox" name="addons" value="Exterior wash - $65" /> Exterior wash - $65</label><label><input type="checkbox" name="addons" value="Child seat cleaning - $25" /> Child seat cleaning - $25</label></div></fieldset>
           <div class="form-row"><label>Preferred Date<input name="date" type="date" required /></label><label>Preferred Time<input name="time" type="time" required /></label></div>
+          <label>Promo Code<input name="promoCode" id="promoCode" type="text" placeholder="Enter NOVA10 for first-time customer discount" /></label>
+          <p class="promo-help">First-time customers can use <strong>NOVA10</strong> for 10% off the final bill.</p>
           <div class="form-row"><label>Vehicle Make<input name="vehicleMake" type="text" placeholder="Toyota, Honda, Ford..." required /></label><label>Vehicle Model<input name="vehicleModel" type="text" placeholder="Camry, Civic, F-150..." required /></label></div>
           <label>Address Details<textarea name="address" rows="5" placeholder="Service address, parking notes, and anything we should know"></textarea></label>
+          <div class="discount-alert">
+            <strong>First-time customer discount</strong>
+            <span>Use promo code <b>NOVA10</b> while booking to receive 10% off your first Nova Auto Spaa bill.</span>
+          </div>
+
           <div class="form-alert">
             <strong>Important appointment note</strong>
             <span>For mobile detailing, we may need access to a power connection and water supply if required for your selected service. Your request is reviewed first, then Nova Auto Spaa confirms the appointment.</span>
